@@ -11,9 +11,13 @@
 .logo h2{
     font-size: 45px;
     font-weight: 900;
- 
+     /* margin-left: 10px; */
+     align-items: center;
 
 }
+ 
+
+
 .color-orange{
     color: #FD6E0A;
 }
@@ -24,18 +28,24 @@
 /* main style */
 header{
     background-color: #FFF8F3;
+    background: url(developer.png) , url("header_bg.png"), #FFF8F3;
+    background-position: top left, bottom right ;
+    background-repeat: no-repeat;
+    
     padding-top: 50px;
 }
-nav{
-    width: 76%;
+ nav{
+   width: 85%; 
     max-width: 1168px;
-    /* border: 1px solid red; */
-    margin: 0px auto;
+     /* border: 1px solid red; */
+     margin: 0px auto; 
     display:flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; }
+   
+
     
-}
+
 nav .menu{
     display: flex;
     list-style-type: none;
@@ -55,12 +65,59 @@ nav .menu a{
     font-size: 20px;
     font-weight: bold;
     color: white;
+    cursor: pointer;
+
+}
+.content{
+    max-width: 585px;
+}
+#bannar{
+    /* border: 1px solid red; */
+    margin: 46px 38px 0px 230px;
+     max-width: 1168px;
+    margin: 46px auto 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ #bannar{
+    max-width: 1168px;
+    margin: 46px auto 0;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bannar .content h2{
+font-size: 45px;
+font-weight: 600;
+color: #474747;
+margin-bottom: 5px;
+
+}
+#bannar .content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+}
+#bannar .content p{
+font-size: 18px;
+color: #757575;
+line-height: 30px;
+margin-bottom: 30px;
+
 
 }
 
+#bannar .bannar-image img{
+    max-width: 584px;
+    vertical-align:middle;                  
 
 
-
+}
 
 
    
